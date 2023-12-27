@@ -1,4 +1,4 @@
-const pool = require('../config/dbconnection');
+const pool = require('../database/index');
 const db = pool; 
 
 const getUsers = (req, res) => {
