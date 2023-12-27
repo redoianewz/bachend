@@ -6,7 +6,7 @@ const{
     getUser,
     putUser,
     deleteUser
-}=require('../controllers/UserController');
+}=require('../controller/UserController');
 
 router.route('/').get(getUsers).post(postUser);
 
