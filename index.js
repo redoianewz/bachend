@@ -11,7 +11,6 @@ const authRouter = require('./routes/auth.router')
 
 app.use("/api/v1/posts", postsRouter)
 app.use("/api/v1/auth", authRouter)
-app.use('/api/users', require('./routes/UserRoute'));
 
 const PORT = process.env.PORT || 5000
 
